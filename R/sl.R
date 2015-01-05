@@ -1,6 +1,7 @@
 # :vim set ft=R
-SL_DIR <- './data/sl'
-SL_SITE <- 'http://health.gov.sl/?page_id=583'
+
+.SL_DIR <- './data/sl'
+.SL_SITE <- 'http://health.gov.sl/?page_id=583'
 
 
 #' Get file names of downloaded and converted files for Sierra Leone
@@ -14,8 +15,10 @@ SL_SITE <- 'http://health.gov.sl/?page_id=583'
 #' @return A list of files
 #' @author Brian Lee Yung Rowe
 #' @examples
+#' \dontrun{
 #' x <- files_sl()
-sl_files <- function(base=SL_DIR) {
+#' }
+files_sl <- function(base=.SL_DIR) {
   list.files(base, 'Ebola-.*\\.txt')
 }
 
@@ -37,15 +40,15 @@ sl_files <- function(base=SL_DIR) {
 #' fs <- extract_sl()
 #' intersect(fs, files_sl())
 #' }
-extract_sl <- function(url=SL_SITE, base=SL_DIR) {
+extract_sl <- function(url=.SL_SITE, base=.SL_DIR) {
   page <- scrape(url)
   xpath <- "//div[@class='post']/ul/li/strong/a"
   pat <- 'Situation-Report'
   urls <- do.call(c, 
-    xpathSApply(page[[1]], xpath, function(x) do_xml(x,pat), simplify=FALSE))
+    xpathSApply(page[[1]],xpath,function(x) find_urls(x,pat), simplify=FALSE))
   files <- sapply(strsplit(urls,'/'), function(x) gsub('%20','_',x[length(x)]))
 
-  apply(cbind(urls,files), 1, function(u) do_etl(u[1], u[2], base))
+  apply(cbind(urls,files), 1, function(u) extract_pdf(u[1], u[2], base))
   o <- replace_ext(files,'txt')
   names(o) <- NULL
   o
@@ -67,9 +70,11 @@ extract_sl <- function(url=SL_SITE, base=SL_DIR) {
 #' @author Brian Lee Yung Rowe
 #'
 #' @examples
+#' \dontrun{
 #' fs <- files_sl()
 #' report <- parse_sl(fs[1])
-parse_sl <- function(file.name, base=SL_DIR) {
+#' }
+parse_sl <- function(file.name, base=.SL_DIR) {
   lines <- readLines(sprintf('%s/%s',base,file.name), warn=FALSE)
   flog.info("[sl] Found %s raw lines", length(lines))
   if (length(lines) < 1) return(NULL)

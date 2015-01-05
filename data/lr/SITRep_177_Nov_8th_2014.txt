@@ -1,0 +1,729 @@
+
+
+
+
+PAGE-1
+	
+	
+Liberia Ebola Daily Sitrep 
+no 177 for 8th November 2014
+Ministry of Health and Social Welfare
+
+PAGE-2
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Ebola Case and Death Summary by County
+County did not report for the day
+1 
+From daily email county reports of aggregated data for that day
+2 
+From individual-level data from the Case Investigation form cases may be reclassified according to 
+surveillance case definitions
+County
+DAILY EMAIL REPORT  
+New deaths
+1
+VHF DATABASE
+New1 suspected probable 
+and confirm cases  
+Cumulative
+2
+cases 23 May-November 8th
+2014
+Cumulative 
+deaths
+2
+Total
+Suspect
+Probable
+Total
+Suspect Probable Confirmed
+Bomi
+0
+0
+0
+1
+199
+66
+42
+91
+97
+Bong
+0
+0
+0
+0
+302
+173
+32
+97
+87
+Gbarpolu
+7
+
+7
+0
+1
+15
+7
+2
+6
+5
+Grand Bassa 
+0
+0
+0
+0
+136
+44
+72
+20
+53
+Grand Cape 
+Mount
+2
+0
+2
+0
+92
+41
+23
+28
+51
+Grand Gedeh
+1
+1
+0
+1
+11
+7
+2
+2
+4
+Grand Kru
+0
+0
+0
+0
+33
+15
+14
+4
+25
+Lofa 
+1
+
+1
+0
+1
+642
+169
+151
+322
+365
+Margibi 
+5
+
+2
+3
+1
+1192
+386
+485
+321
+527
+Maryland
+0
+0
+0
+0
+18
+12
+2
+4
+14
+Montserrado
+11
+3
+8
+7
+3779
+1554
+710
+1515
+1518
+Nimba 
+0
+0
+0
+0
+324
+80
+135
+109
+48
+River Gee
+0
+0
+0
+0
+18
+7
+4
+7
+8
+River Cess
+1
+1
+0
+2
+29
+11
+8
+10
+23
+Sinoe 
+0
+0
+0
+0
+32
+10
+5
+17
+11
+NATIONAL
+28
+15
+13
+14
+6822
+2582
+1687
+2553
+2836
+
+
+increase and 
+
+big increase compared to previous days
+
+PAGE-3
+	
+	
+	
+	
+	
+New
+1
+Cases by County
+1 
+Data from daily email county reports of aggregated data
+Compared to previous days
+increase 
+big increase
+
+
+
+
+
+
+PAGE-4
+	
+	
+	
+	
+New
+1
+Cases Reported by Date Past 21 Days
+1 
+Data from daily email county reports of aggregated data
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+N
+UM
+BE
+R
+ O
+F N
+EW
+ CA
+SE
+S
+DATE OF REPORT
+Probable
+Suspected
+Confirmed
+
+PAGE-5
+	
+	
+Healthcare Worker HCW Cases and 
+Deaths
+1 
+Data from daily email county reports
+2 
+Data from epiinfo VHF database
+County did not report
+County 
+New
+1
+HCW Cases
+New
+1
+HCW Deaths
+Cummulative
+2
+HCW 
+Cases
+Cummulative
+2
+HCW 
+Deaths
+Bomi 
+0
+0
+11
+9
+Bong
+0
+0
+28
+15
+Garpolu 
+0
+0
+0
+0
+Grand Bassa 
+0
+0
+6
+2
+Grand Cape Mount
+0
+0
+7
+3
+Grand Gedeh 
+0
+0
+1
+0
+Grand Kru 
+0
+0
+0
+0
+Lofa 
+0
+0
+22
+16
+Margibi 
+0
+0
+69
+37
+Maryland
+0
+0
+1
+0
+Montserrado 
+0
+0
+169
+78
+Nimba 
+0
+0
+12
+2
+River Gee
+0
+0
+2
+0
+River Cess 
+0
+0
+0
+0
+Sinoe 
+0
+0
+1
+0
+NATIONAL
+0
+0
+329
+162
+
+PAGE-6
+	
+Admissions Currently in Treatment and 
+Discharges
+Data from daily email county reports
+County did not report
+CCCHolding Centers
+Ebola Treatment Units
+New 
+admissions
+Currently in 
+treatment
+Discharges
+New 
+admissions
+Currently in 
+treatment
+Discharges
+Bomi
+0
+10
+0
+
+
+
+Bong
+
+
+
+0
+28
+0
+Gbarpolu
+0
+0
+0
+
+
+
+Grand Bassa
+0
+16
+0
+
+
+
+Grand Cape Mount
+
+
+
+
+
+
+Grand Gedeh
+0
+2
+0
+
+
+
+Grand Kru
+0
+0
+0
+
+
+
+Lofa
+
+
+
+0
+0
+1
+Margibi
+4
+14
+0
+
+
+
+Maryland
+0
+0
+0
+
+
+
+Montserrado
+
+
+
+28
+167
+13
+Nimba
+
+
+
+0
+9
+0
+River Gee
+0
+0
+0
+
+
+
+River Cess
+
+
+
+
+
+
+Sinoe
+0
+5
+0
+
+
+
+NATIONAL
+4
+47
+0
+28
+205
+14
+
+PAGE-7
+	
+Admissions Currently in Treatment and Discharges 
+Montserrado
+Data from daily email county reports
+County did not report
+Ebola Treatment Units in Montserrado County
+New admissions
+Currently in 
+treatment
+Discharges
+ELWA 2
+5
+41
+0
+ELWA 3
+6
+44
+9
+Island Clinic
+10
+71
+4
+MOD1
+7
+11
+0
+Total
+28
+167
+13
+
+PAGE-8
+	
+County
+Newly reported 
+contacts
+Currently under 
+follow-up
+Contacts 
+seen on day
+Contacts who 
+completed 21 
+days follow-up
+Contacts lost 
+to follow-up
+Bomi
+0
+212
+0
+0
+0
+Bong
+0
+100
+100
+0
+0
+Gbarpolu
+0
+58
+45
+0
+0
+Grand Bassa
+5
+50
+50
+0
+0
+Grand Cape Mount
+0
+250
+250
+2
+0
+Grand Gedeh
+0
+0
+0
+0
+0
+Grand Kru
+0
+0
+0
+0
+0
+Lofa
+32
+128
+128
+0
+0
+Margibi
+55
+1881
+1881
+0
+0
+Maryland
+0
+11
+0
+0
+0
+Montserrado
+97
+3280
+3251
+181
+1
+Nimba
+0
+123
+123
+58
+0
+River Gee
+0
+0
+0
+0
+0
+River Cess
+0
+81
+81
+5
+0
+Sinoe
+0
+48
+48
+0
+0
+NATIONAL
+189
+6222
+5957
+246
+1
+Contact Investigation Summary
+Data from daily email county reports
+County did not report
+
+PAGE-9
+	
+Laboratory Samples Evaluated
+Laboratory
+Total
+New 
+Positive
+Repeat
+Positive Negative Indeterminate 
+National Reference 
+lab at LIBR
+22
+6
+0
+12
+4
+Mobile lab in Bong
+11
+2
+2
+7
+0
+Mobile lab in Island
+8
+5
+0
+3
+0
+Mobile lab in Lofa
+0
+0
+0
+0
+0
+Mobile lab in ELWA
+32
+3
+3
+26
+0
+Total
+73
+16
+5
+48
+4
+
+PAGE-10
+County Highlights
+Gbarpolu
+
+The county is in need of VHF radios in hard-to-reach areas for prompt daily and response 
+Sinoe
+
+The Social mobilization team visited Nyenswah Town and Pamana to hold meetings with 
+community leaders on Ebola prevention
+
+The Holding Unit staff have not been paid since August
+Grand Cape Mount
+
+A total of 27 patients have been admitted to ETUs in Monrovia
+
+A Senator donated one Ambulance high top jeep to the County Ebola Task Force to be 
+used in Porkpa and Gola Konneh Districts
+
+The CHSWT provided 8 pairs of Rain Boots gloves thermo scan and Chlorine  to the Task 
+Force Organized by the Jenewonde Community  
+River Cess
+
+4 of the listed contacts  became symptomatic
+
+

@@ -51,7 +51,7 @@
 #' # For Liberia
 #' \dontrun{
 #' docs.lr <- extract_lr()
-#' data.lr <- parse_all(docs.lr, type='lr')
+#' data.lr <- parse_all(docs.lr)
 #' validate(data.lr,'alive.total')
 #' with(data.lr[data.lr$county=='NATIONAL',], plot(date,alive.total,type='l'))
 #' forecast(data.lr,'NATIONAL', 'cum.dead')
@@ -60,7 +60,7 @@
 #' # For Sierra Leone
 #' \dontrun{
 #' docs.sl <- extract_sl()
-#' data.sl <- parse_all(docs.sl, type='sl')
+#' data.sl <- parse_all(docs.sl)
 #' validate(data.sl,'alive.total')
 #' forecast(data.sl, measure='cum.dead.confirmed')
 #' }

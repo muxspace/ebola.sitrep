@@ -1,1 +1,7 @@
 exportPattern("^[^\\.]")
+import(futile.logger)
+import(httr)
+import(lambda.tools)
+import(RCurl)
+import(scrapeR)
+import(XML)

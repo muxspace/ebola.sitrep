@@ -23,8 +23,8 @@
 # . 2014-12-12 : 2014-12-13 - cum.total
 # . 2014-12-12 : 2014-12-13 - cum.suspect
 
-LR_DIR <- './data/lr'
-LR_SITE <- 'http://www.mohsw.gov.lr/content_display.php?sub=report2'
+.LR_DIR <- './data/lr'
+.LR_SITE <- 'http://www.mohsw.gov.lr/content_display.php?sub=report2'
 
 
 #' Get file names of downloaded and converted files for Liberia
@@ -38,8 +38,10 @@ LR_SITE <- 'http://www.mohsw.gov.lr/content_display.php?sub=report2'
 #' @return A list of files
 #' @author Brian Lee Yung Rowe
 #' @examples
+#' \dontrun{
 #' x <- files_lr()
-files_lr <- function(base=LR_DIR) {
+#' }
+files_lr <- function(base=.LR_DIR) {
   list.files(base, 'SITRep.*\\.txt')
 }
 
@@ -61,17 +63,17 @@ files_lr <- function(base=LR_DIR) {
 #' fs <- extract_lr()
 #' intersect(fs, files_lr())
 #' }
-extract_lr <- function(url=LR_SITE, base=LR_DIR) {
+extract_lr <- function(url=.LR_SITE, base=.LR_DIR) {
   page <- scrape(url)
   xpath <- "//div[@id='content']/li/a"
   links <- do.call(c, 
-    xpathSApply(page[[1]], xpath, function(x) do_xml(x,'SITRep')))
+    xpathSApply(page[[1]], xpath, function(x) find_urls(x,'SITRep')))
   files <- sapply(strsplit(links,'/'), function(x) gsub('%20','_',x[length(x)]))
 
   url.parts <- parse_url(url)
   urls <- paste(url.parts$scheme,"://",url.parts$hostname,'/',links, sep='')
 
-  apply(cbind(urls,files), 1, function(u) do_etl(u[1], u[2], base))
+  apply(cbind(urls,files), 1, function(u) extract_pdf(u[1], u[2], base))
   o <- replace_ext(files,'txt')
   names(o) <- NULL
   o
@@ -93,9 +95,11 @@ extract_lr <- function(url=LR_SITE, base=LR_DIR) {
 #' @author Brian Lee Yung Rowe
 #'
 #' @examples
+#' \dontrun{
 #' fs <- files_lr()
 #' report <- parse_lr(fs[1])
-parse_lr <- function(file.name, base=LR_DIR) {
+#' }
+parse_lr <- function(file.name, base=.LR_DIR) {
   lines <- readLines(sprintf('%s/%s',base,file.name), warn=FALSE)
   flog.info("[lr] Found %s raw lines", length(lines))
   if (length(lines) < 1) return(NULL)
@@ -106,7 +110,7 @@ parse_lr <- function(file.name, base=LR_DIR) {
 
   vhf_fn <- function(lines, start.marker, stop.marker, markers, labels, regex) {
     size <- length(labels)
-    raw.table <- do_extract(lines, start.marker, stop.marker, regex)
+    raw.table <- get_chunk(lines, start.marker, stop.marker, regex)
     raw.table <- do.call(c, strsplit(raw.table, '  ', fixed=TRUE))
     start.idx <- get_index(raw.table, 'deaths') + 1
     indices <- start.idx + size * (0:(length(markers)-1))
@@ -119,7 +123,7 @@ parse_lr <- function(file.name, base=LR_DIR) {
 
   hcw_fn <- function(lines, start.marker, stop.marker, markers, labels, regex) {
     size <- length(labels)
-    raw.table <- do_extract(lines, start.marker, stop.marker, regex)
+    raw.table <- get_chunk(lines, start.marker, stop.marker, regex)
     raw.table <- do.call(c, strsplit(raw.table, '  ', fixed=TRUE))
     start.idx <- 3
     indices <- start.idx + size * (0:(length(markers)-1))
@@ -149,7 +153,7 @@ parse_lr <- function(file.name, base=LR_DIR) {
     start.hcw.b <- 'Confirmed HCW'
     label.hcw.b <- c('cum.hcw.cases', 'cum.hcw.deaths')
 
-    start.contact <- 'Newly reported' # Contact investigation summary
+    start.contact <- '^Newly' # Contact investigation summary
     label.contact <- c('new.contacts','under.followup','seen.on.day',
       'completed.21d.followup', 'lost.followup')
 
@@ -233,14 +237,19 @@ parse_lr <- function(file.name, base=LR_DIR) {
     merge(acc,o, by='county', all=TRUE)
   }
   out <- fold(1:config$sections, fn, init, simplify=FALSE)
+  out$county <- sub('NATIONAL','National',out$county, fixed=TRUE)
   keep <- c('date','county', grep('^[^_]',colnames(out), value=TRUE))
   out[,keep]
 }
 
 
-#' Parse a date from a file name.
+#' Parse a date from a file name
 #'
-#' This is for Liberia data
+#' This is for Liberia data, where the file names contain a date
+#'
+#' @name parse_date
+#' @param file.name The file name that contains an embedded date
+#' @return A Date object
 parse_date <- function(file.name) {
   file.name <- gsub('_+','_',file.name)
   parts <- strsplit(file.name, '_')[[1]]

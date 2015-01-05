@@ -1,0 +1,733 @@
+
+
+
+
+PAGE-1
+	
+	
+Liberia Ebola Daily Sitrep 
+no 184 for 15th November 2014
+Ministry of Health and Social Welfare
+
+PAGE-2
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Ebola Case and Death Summary by County
+County did not report for the day
+1 
+From daily email county reports of aggregated data for that day
+2 
+From individual-level data from the Case Investigation form cases may be reclassified according to 
+surveillance case definitions
+County
+DAILY EMAIL REPORT  
+New 
+deaths
+1
+VHF DATABASE
+New
+1
+suspected and 
+probable   
+Cumulative
+2
+cases 23 May-
+November 15th 2014
+Cumulati
+ve 
+deaths
+2
+Total
+Suspect Probable
+Total
+Suspect
+Probable Confirmed
+Bomi
+0
+0
+0
+1
+283
+84
+68
+131
+153
+Bong
+7
+
+7
+0
+3
+302
+173
+32
+97
+88
+Gbarpolu
+1
+
+1
+0
+0
+17
+9
+2
+6
+5
+Grand Bassa 
+1
+0
+1
+0
+142
+43
+76
+23
+55
+Grand Cape 
+Mount
+1
+1
+0
+3
+97
+42
+26
+29
+54
+Grand Gedeh
+0
+0
+0
+0
+11
+7
+2
+2
+4
+Grand Kru
+1
+
+1
+0
+0
+34
+14
+16
+4
+25
+Lofa 
+0
+0
+0
+0
+641
+167
+149
+325
+375
+Margibi 
+1
+1
+0
+0
+1219
+402
+487
+330
+535
+Maryland
+0
+0
+0
+0
+19
+13
+2
+4
+15
+Montserrado
+23
+
+13
+10
+5
+3881
+1602
+739
+1540
+1562
+Nimba 
+0
+0
+0
+0
+328
+80
+137
+111
+50
+River Gee
+0
+0
+0
+0
+19
+7
+5
+7
+8
+River Cess
+4
+
+4
+0
+0
+44
+11
+16
+17
+24
+Sinoe 
+0
+0
+0
+0
+32
+10
+5
+17
+11
+NATIONAL
+39
+28
+11
+12
+7069
+2664
+1762
+2643
+2964
+
+
+increase and 
+
+big increase compared to previous days
+
+PAGE-3
+	
+	
+	
+	
+	
+	
+	
+	
+New
+1
+suspected and probable cases by County
+1 
+Data from daily email county reports of aggregated data
+Legend
+New cases reported Nov 15  
+2014    0 New cases
+1  4 New cases
+7 New cases
+23 New cases
+No reports received
+0
+0
+0
+0
+0
+0
+1
+1
+1
+1
+1
+4
+23
+7
+0
+Compared to previous days
+increase 
+big increase
+
+
+
+
+
+
+
+
+PAGE-4
+	
+	
+	
+	
+New
+1
+Cases Reported by Date Past 21 Days
+0
+10
+20
+30
+40
+50
+60
+70
+80
+Number
+ of 
+Ne
+w 
+Cas
+es
+DATE OF REPORT
+Probable
+Suspected
+1 
+Data from daily email county reports of aggregated data
+Laboratory confirm cases
+
+PAGE-5
+	
+	
+Healthcare Worker HCW Cases and 
+Deaths
+1 
+Data from daily email county reports
+2 
+Data from epiinfo VHF database
+County did not report
+County 
+New
+1
+HCW Cases
+New
+1
+HCW Deaths
+Cummulative
+2
+HCW 
+Cases
+Cummulative
+2
+HCW 
+Deaths
+Bomi 
+0
+0
+18
+14
+Bong
+0
+0
+28
+16
+Garpolu 
+0
+0
+0
+0
+Grand Bassa 
+0
+0
+8
+2
+Grand Cape Mount
+0
+0
+7
+3
+Grand Gedeh 
+0
+0
+1
+0
+Grand Kru 
+0
+0
+0
+0
+Lofa 
+0
+0
+22
+16
+Margibi 
+0
+0
+69
+37
+Maryland
+0
+0
+1
+0
+Montserrado 
+0
+0
+172
+80
+Nimba 
+0
+0
+12
+2
+River Gee
+0
+0
+2
+0
+River Cess 
+0
+0
+0
+0
+Sinoe 
+0
+0
+1
+0
+NATIONAL
+0
+0
+341
+170
+
+PAGE-6
+	
+	
+	
+Admissions Currently in Treatment and Discharges
+County did not report
+CCCHolding Centers
+Ebola Treatment Units
+New 
+admissions
+Currently in 
+treatment
+Discharges 
+not 
+including 
+transferred
+New 
+admissions
+Currently in 
+treatment
+Discharges
+Bomi
+0
+0
+0
+0
+4
+1
+Bong
+
+
+
+4
+25
+2
+Gbarpolu
+0
+0
+0
+
+
+
+Grand Bassa
+0
+20
+0
+
+
+
+Grand Cape Mount
+
+
+
+
+
+
+Grand Gedeh
+0
+0
+0
+
+
+
+Grand Kru
+1
+1
+0
+
+
+
+Lofa
+
+
+
+0
+0
+0
+Margibi
+1
+23
+0
+
+
+
+Maryland
+0
+0
+0
+
+
+
+Montserrado
+
+
+
+10
+85
+8
+Nimba
+
+
+
+0
+9
+0
+River Gee
+0
+0
+0
+
+
+
+River Cess
+
+
+
+
+
+
+Sinoe
+0
+2
+0
+
+
+
+NATIONAL
+2
+46
+0
+14
+123
+11
+Data from daily email county reports
+County without CCCHC or ETUs 
+
+
+PAGE-7
+Admissions Currently in Treatment and Discharges 
+Montserrado
+Ebola Treatment Units in Montserrado County
+New admissions
+Currently in 
+treatment
+Discharges
+ELWA 2
+2
+49
+0
+ELWA 3
+6
+23
+8
+Island Clinic
+MOD1
+2
+13
+0
+Total
+10
+85
+8
+
+PAGE-8
+	
+County
+Newly reported 
+contacts
+Currently under 
+follow-up
+Contacts 
+seen on day
+Contacts who 
+completed 21 
+days follow-up
+Contacts lost 
+to follow-up
+Bomi
+0
+0
+0
+0
+0
+Bong
+0
+169
+169
+6
+0
+Gbarpolu
+0
+54
+46
+0
+0
+Grand Bassa
+0
+43
+0
+0
+0
+Grand Cape Mount
+0
+184
+184
+0
+0
+Grand Gedeh
+0
+0
+0
+0
+0
+Grand Kru
+0
+0
+0
+1
+0
+Lofa
+0
+139
+139
+0
+0
+Margibi
+4
+1929
+1929
+0
+0
+Maryland
+1
+1
+1
+0
+0
+Montserrado
+86
+2882
+2873
+149
+3
+Nimba
+0
+51
+51
+0
+0
+River Gee
+0
+0
+0
+0
+0
+River Cess
+0
+91
+91
+0
+0
+Sinoe
+0
+23
+23
+0
+0
+NATIONAL
+91
+5566
+5506
+156
+3
+Contact Investigation Summary
+Data from daily email county reports
+County did not report
+
+PAGE-9
+	
+Laboratory Samples Evaluated
+Laboratory
+Total
+New 
+Positive
+Repeat
+Positive Negative Indeterminate 
+National Reference 
+lab at LIBR
+15
+3
+1
+8
+3
+Mobile lab in Bong
+12
+3
+1
+8
+0
+Mobile lab in Island
+9
+4
+0
+4
+1
+Mobile lab in Lofa
+0
+0
+0
+0
+0
+Mobile lab in ELWA
+13
+0
+4
+9
+0
+Total
+49
+10
+6
+29
+4
+Not disaggregated  by type of positive
+
+

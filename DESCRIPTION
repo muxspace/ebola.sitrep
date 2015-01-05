@@ -3,10 +3,22 @@ Type: Package
 Title: Download and parse Ebola situation reports
 Version: 1.0.0
 Date: 2015-01-04
+Imports:
+    futile.logger,
+    lambda.tools,
+    RCurl,
+    httr,
+    scrapeR,
+    XML
 Author: Brian Lee Yung Rowe
 Maintainer: Brian Lee Yung Rowe <r@zatonovo.com>
-Description: This package automates the extraction and parsing of
-situation reports from the health ministries of Liberia and Sierra Leone.
-From a pedagogical perspective, it serves as a case study in the author's
-forthcoming book, Modeling Data With Functional Programming In R.
+Description: This package automates the extraction and parsing of situation
+    reports from the health ministries of Liberia and Sierra Leone.  From a
+    pedagogical perspective, it serves as a case study in the author's
+    forthcoming book, Modeling Data With Functional Programming In R.
 License: GPL-3
+Collate:
+    'ebola.R'
+    'ebola.sitrep-package.R'
+    'lr.R'
+    'sl.R'

@@ -1,0 +1,839 @@
+
+
+
+
+PAGE-1
+	
+	
+Liberia Ebola Daily Sitrep 
+no 188 for 19th November 2014
+Ministry of Health and Social Welfare
+
+PAGE-2
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Ebola Case and Death Summary by County
+County did not report for the day
+1 
+From daily email county reports of aggregated data for that day
+2 
+From individual-level data from the Case Investigation form cases may be reclassified according to 
+surveillance case definitions
+County
+DAILY EMAIL REPORT  
+New 
+deaths
+1
+VHF DATABASE
+New
+1
+suspected and 
+probable   
+Cumulative
+2
+cases 23 May-
+November 19th 2014
+Cumulati
+ve 
+deaths
+2
+Total
+Suspect Probable
+Total
+Suspect
+Probable Confirmed
+Bomi
+0
+0
+0
+0
+285
+84
+66
+135
+158
+Bong
+8
+8
+0
+8
+308
+173
+32
+103
+88
+Gbarpolu
+0
+0
+0
+0
+20
+10
+3
+7
+5
+Grand Bassa 
+0
+0
+0
+0
+139
+39
+67
+33
+60
+Grand Cape 
+Mount
+2
+
+0
+2
+0
+96
+38
+26
+32
+54
+Grand Gedeh
+0
+0
+0
+0
+10
+8
+0
+2
+5
+Grand Kru
+0
+0
+0
+0
+34
+14
+16
+4
+25
+Lofa 
+0
+0
+0
+0
+641
+167
+149
+325
+376
+Margibi 
+5
+
+4
+1
+0
+1214
+396
+482
+336
+534
+Maryland
+0
+0
+0
+0
+21
+15
+2
+4
+17
+Montserrado
+15
+12
+3
+11
+3921
+1600
+737
+1584
+1576
+Nimba 
+5
+
+4
+1
+0
+326
+80
+136
+110
+50
+River Gee
+0
+0
+0
+0
+19
+7
+5
+7
+8
+River Cess
+0
+0
+0
+0
+42
+9
+16
+17
+25
+Sinoe 
+1
+
+1
+0
+2
+31
+10
+3
+18
+11
+NATIONAL
+36
+29
+7
+21
+7107
+2650
+1740
+2717
+2992
+
+
+increase and 
+
+big increase compared to previous days
+
+PAGE-3
+	
+	
+	
+	
+	
+	
+New
+1
+suspected and probable cases by County
+over the past 7 days
+1 
+Data from daily email county reports of aggregated data
+7
+47
+7
+16
+1
+4
+0
+0
+0
+2
+1
+8
+14
+2
+109
+ 0 cases
+ 1-9 cases
+ 10-49 cases
+ 50-99 cases
+ 100 or more cases
+Legend-
+New Cases 13-19 Nov 2014
+Liberian Ministry of Health amp Social Welfare
+
+PAGE-4
+	
+	
+	
+	
+	
+	
+New
+1
+Cases Reported by Date Past 21 Days
+0
+10
+20
+30
+40
+50
+60
+70
+80
+Numb
+er
+ of 
+Ne
+w 
+Cas
+es
+DATE OF REPORT
+Probable
+Suspected
+1 
+Data from daily email county reports of aggregated data
+Laboratory confirm cases
+
+PAGE-5
+	
+The trend line shows the number of the laboratory confirmed cases of Ebola per day in Liberia The number for each day is presented as the 
+mean of the last 7 days Thereby the day to day variations are eliminated in order to show the time trend more clearly Duplicate samples 
+from the same patient have been removed from the data presented above From the beginning of November no such duplication remain
+The above trend curve is presently the best representation available for the Ebola Epidemic in Liberia but throughout the months covered 
+there are cases mainly deaths in the communities that are not diagnosed
+There are no evidance from community studies and obeservations  that the number of missed cases per day have increased since the peak of 
+the epidemic It is difficult to estimate how many cases are missed per day but the numer of investigation of identified smaller outbreaks in 
+remote communities suggests that they mainly occure in remote rural areas and that the numbers are small in the Montserrato county 
+including the capital Monrovia  It seems unprobable that the number of missed cases per day constitute a higher number than those that are 
+confirmed
+
+PAGE-6
+	
+	
+County
+New Confirmed Cases
+Alive
+Dead
+Bomi
+0
+0
+Bong
+1
+0
+Gbarpolu
+0
+0
+Grand Bassa
+0
+0
+Grand Cape Mount
+2
+1
+Grand Gedeh
+0
+0
+Grand Kru
+0
+0
+Lofa
+0
+0
+Margibi
+0
+0
+Maryland
+0
+0
+Montserrado
+8
+0
+Nimba
+0
+0
+Rivergee
+0
+0
+Rivercess
+0
+0
+Sinoe
+0
+0
+National
+11
+1
+Laboratory Confirmed Cases on November 19 2014
+
+PAGE-7
+	
+Healthcare Worker HCW Cases and 
+Deaths
+1 
+Data from daily email county reports
+2 
+Data from epiinfo VHF database
+County did not report
+County 
+New
+1
+HCW Cases
+New
+1
+HCW Deaths
+Cummulative
+2
+HCW 
+Cases
+Cummulative
+2
+HCW 
+Deaths
+Bomi 
+0
+0
+18
+14
+Bong
+0
+0
+29
+16
+Garpolu 
+0
+0
+0
+0
+Grand Bassa 
+0
+0
+8
+4
+Grand Cape Mount
+0
+0
+7
+3
+Grand Gedeh 
+0
+0
+0
+0
+Grand Kru 
+0
+0
+0
+0
+Lofa 
+0
+0
+22
+16
+Margibi 
+0
+0
+69
+37
+Maryland
+0
+0
+1
+0
+Montserrado 
+0
+0
+173
+80
+Nimba 
+0
+0
+12
+2
+River Gee
+0
+0
+2
+0
+River Cess 
+0
+0
+0
+0
+Sinoe 
+0
+0
+1
+0
+NATIONAL
+0
+0
+342
+172
+
+PAGE-8
+	
+	
+Admissions Currently in Treatment and Discharges
+County did not report
+CCCHolding Centers
+Ebola Treatment Units
+New 
+admissions
+Currently in 
+treatment
+Discharges 
+not 
+including 
+transferred
+New 
+admissions
+Currently in 
+treatment
+Discharges
+Bomi
+0
+0
+0
+0
+3
+2
+Bong
+
+
+
+6
+35
+2
+Gbarpolu
+0
+0
+0
+
+
+
+Grand Bassa
+0
+20
+0
+
+
+
+Grand Cape Mount
+
+
+
+
+
+
+Grand Gedeh
+0
+1
+0
+
+
+
+Grand Kru
+0
+0
+0
+
+
+
+Lofa
+
+
+
+0
+0
+0
+Margibi
+3
+28
+0
+
+
+
+Maryland
+0
+0
+0
+
+
+
+Montserrado
+
+
+
+5
+55
+13
+Nimba
+
+
+
+0
+1
+8
+River Gee
+0
+0
+0
+
+
+
+River Cess
+
+
+
+
+
+
+Sinoe
+0
+2
+0
+
+
+
+NATIONAL
+3
+51
+0
+11
+94
+25
+Data from daily email county reports
+County without CCCHC or ETUs 
+
+Incomplete ETUs report 
+
+PAGE-9
+	
+Admissions Currently in Treatment and Discharges 
+Montserrado
+Ebola Treatment Units in Montserrado County
+New admissions
+Currently in 
+treatment
+Discharges
+ELWA 2
+1
+24
+12
+ELWA 3
+3
+19
+1
+Island Clinic
+MOD1
+1
+14
+0
+Total
+5
+57
+13
+ETU did not report
+
+PAGE-10
+	
+Admitted ETU Cases by Age Group and Gender June 
+1-November 18 2014 N2364
+0
+50
+100
+150
+200
+250
+300
+0-4
+5-9
+10-14 15-19 20-29 30-39 40-49 50-59
+60
+Nu
+mb
+e
+r
+Age
+Female
+Male
+Mean age  30 years
+
+PAGE-11
+	
+	
+Laboratory Samples Evaluated
+Laboratory
+Total
+New 
+Positive
+Repeat
+Positive Negative Indeterminate 
+National Reference 
+lab at LIBR
+18
+3
+0
+15
+0
+Mobile lab in Bong
+17
+1
+2
+14
+0
+Mobile lab in Island
+11
+5
+3
+1
+2
+Mobile lab in Lofa
+0
+0
+0
+0
+0
+Mobile lab in ELWA
+15
+3
+1
+11
+0
+Total
+61
+12
+6
+41
+2
+
+PAGE-12
+County
+Newly reported 
+contacts
+Currently under 
+follow-up
+Contacts 
+seen on day
+Contacts who 
+completed 21 
+days follow-up
+Contacts lost 
+to follow-up
+Bomi
+0
+318
+226
+0
+0
+Bong
+14
+198
+198
+0
+0
+Gbarpolu
+0
+57
+31
+15
+0
+Grand Bassa
+0
+59
+30
+1
+29
+Grand Cape Mount
+18
+286
+286
+2
+0
+Grand Gedeh
+0
+1
+1
+0
+0
+Grand Kru
+0
+0
+0
+0
+0
+Lofa
+0
+102
+100
+0
+0
+Margibi
+45
+2013
+2013
+0
+0
+Maryland
+0
+17
+17
+0
+0
+Montserrado
+211
+3148
+3140
+146
+0
+Nimba
+0
+32
+32
+18
+0
+River Gee
+0
+0
+0
+0
+0
+River Cess
+0
+91
+91
+0
+0
+Sinoe
+18
+82
+64
+0
+0
+NATIONAL
+306
+6404
+6229
+182
+29
+Contact Investigation Summary
+Data from daily email county reports
+County did not report
+
+PAGE-13
+County Highlights
+Bomi
+
+Three patients were transferred from the holding unit to the newly opened ETU
+Montserrado
+
+5 listed contacts became symptomatic
+
+4 children age 15 14 13 and 8 years are being quarantined in a home in Mount 
+Barclay but are in urgent need of food
+Sinoe
+
+Safe Burial was conducted by the DHO and community members in Butaw for an 
+unexplained death of a man in Pornkpo
+Bong
+
+There were seven suspected community deaths but due to the lack of resources no 
+sample could be collected 
+
+
