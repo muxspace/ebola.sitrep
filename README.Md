@@ -77,6 +77,8 @@ Note that the data have numerous gaps as the reporting is inconsistent.
 ### Liberia
 The Liberian situation reports are a bit trickier to work with. Unlike Sierra Leone, the Liberian Ministry of Health only publishes a rolling window of historical situation reports. Hence, a smaller set is available, from 6 November - present. Anyone with source PDF files prior to that, please let me know (Twitter: <a href="https://twitter.com/cartesianfaith">@cartesianfaith</a>) or submit a pull request with the files added.
 
+UPDATE: Thanks to a suggestion by <a href="https://twitter.com/FoxandtheFlu">@FoxandtheFlu</a>, I've downloaded data for Sep 10 - Oct 20. They are in a separate branch (lr_historical) as they will break the parse code.
+
 You can use the same approach to identify the counties for Liberia.
 ```R
 >  unique(data.lr$county)
@@ -131,7 +133,7 @@ fc <- forecast(data.sl, measure='cum.dead.total')
 The result of the function is the actual forecast for the measure in `data.frame` format.
 
 ## Contribute to the code
-As hinted earlier, I welcome any help in adding parse rules to improve the data quality. Someone more intrepid could even add a new country to the dataset or figure out how to consolidate the measures across countries. It's easiest to reach out over Twitter: <a href="https://twitter.com/cartesianfaith">@cartesianfaith</a>.
+As hinted earlier, I welcome any help in adding parse rules to improve the data quality or expand the date range. Someone more intrepid could even add a new country to the dataset or figure out how to consolidate the measures across countries. It's easiest to reach out over Twitter: <a href="https://twitter.com/cartesianfaith">@cartesianfaith</a>.
 
 ### Building the package
 It is recommended to use <a href="https://github.com/muxspace/crant">crant</a> for building. Once you've cloned and added crant to your path, simply run `crant` from the shell.

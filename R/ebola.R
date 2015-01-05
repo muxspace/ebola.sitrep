@@ -172,11 +172,12 @@ replace_ext <- function(file, ext) {
 #' @name find_urls
 #' @param x XML
 #' @param pattern A pattern for URLs to find
+#' @param clean_fn A function that performs additional cleaning
 #' @return A charater vector of matching URLs
-find_urls <- function(x, pattern) {
+find_urls <- function(x, pattern, clean_fn=function(x) x) {
   link <- xmlAttrs(x)['href']
   link <- grep(pattern,link, value=TRUE)
-  gsub(' ','%20',link, fixed=TRUE)
+  clean_fn(gsub(' ','%20',link, fixed=TRUE))
 }
 
 #' Download and convert a PDF

@@ -26,6 +26,9 @@
 .LR_DIR <- './data/lr'
 .LR_SITE <- 'http://www.mohsw.gov.lr/content_display.php?sub=report2'
 
+# These are archived pages for more data
+# https://web.archive.org/web/20141006152127/http://www.mohsw.gov.lr/content_display.php?sub=report2
+# https://web.archive.org/web/20141025033552/http://mohsw.gov.lr/content_display.php?sub=report2
 
 #' Get file names of downloaded and converted files for Liberia
 #'
@@ -56,6 +59,7 @@ files_lr <- function(base=.LR_DIR) {
 #' @name extract_lr
 #' @param url The URL of the list of situation reports
 #' @param base The base directory to save data files
+#' @param \dots Further arguments to pass to find_urls e.g. a clean_fn
 #' @return The list of local file names
 #' @author Brian Lee Yung Rowe
 #' @examples
@@ -63,11 +67,17 @@ files_lr <- function(base=.LR_DIR) {
 #' fs <- extract_lr()
 #' intersect(fs, files_lr())
 #' }
-extract_lr <- function(url=.LR_SITE, base=.LR_DIR) {
+#'
+#' \dontrun{
+#' url <- 'https://web.archive.org/web/20141025033552/http://mohsw.gov.lr/content_display.php?sub=report2'
+#' fn <- function(x) sub('^.*http','http',x)
+#' fs <- extract_lr(url, clean_fn=fn)
+#' }
+extract_lr <- function(url=.LR_SITE, base=.LR_DIR, ...) {
   page <- scrape(url)
   xpath <- "//div[@id='content']/li/a"
   links <- do.call(c, 
-    xpathSApply(page[[1]], xpath, function(x) find_urls(x,'SITRep')))
+    xpathSApply(page[[1]], xpath, function(x) find_urls(x,'SITRep|SitRep', ...)))
   files <- sapply(strsplit(links,'/'), function(x) gsub('%20','_',x[length(x)]))
 
   url.parts <- parse_url(url)
