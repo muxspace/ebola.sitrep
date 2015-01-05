@@ -237,3 +237,15 @@ parse_lr <- function(file.name, base=LR_DIR) {
   out[,keep]
 }
 
+
+#' Parse a date from a file name.
+#'
+#' This is for Liberia data
+parse_date <- function(file.name) {
+  file.name <- gsub('_+','_',file.name)
+  parts <- strsplit(file.name, '_')[[1]]
+  parts[4:5] <- gsub('[^0-9]','',parts[4:5])
+  date.string <- sprintf('%s %s %s', parts[3], parts[4], parts[5])
+  as.Date(strptime(date.string, '%b %d %Y'))
+}
+
