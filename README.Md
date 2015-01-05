@@ -2,7 +2,7 @@
 This package parses and consolidates ebola situation reports into a
 machine-readable format. Currently it knows how to process all PDF situation reports from the Ministries of Health for <a href="http://www.mohsw.gov.lr/content_display.php?sub=report2">Liberia</a> and <a href="http://health.gov.sl/?page_id=583">Sierra Leone</a>. These situation reports are the most immediate source of data as they are typically updated daily. In contrast, the <a href="http://www.who.int/csr/disease/ebola/situation-reports/archive/en/">WHO data</a> is published weekly.
 
-Anyone following the ebola outbreak knows how challenging it is to get quality data in a machine-readable format. I assume this is because scarce resources are (rightly) being spent fighting the outbreak as opposed to serving data scientists half a world away. At any rate, obtaining quality data is a significant challenge, where the solution has mostly been manual transcription of the data, as seen in <a href="https://github.com/cmrivers/ebola">Caitlin River's now stale repository</a>. Generosity aside, the problem with this approach is that human labor is costly and people have other things to do (like finish a dissertation). Clearly, automation is a better solution, but one that is non-trivial considering the situation reports are tables embedded in a PDF file. With all the publicity around Ebola and various <a href="http://www.eboladata.org/">hackathons</a> making contributions, I'm surprised that nobody has tackled the real issue of providing reliable and timely data. Personally, I think access to information is only useful if the data are readily usable by <em>both</em> humans and machines.
+Anyone following the ebola outbreak knows how challenging it is to get quality data in a machine-readable format. I assume this is because scarce resources are (rightly) being spent fighting the outbreak as opposed to serving data scientists half a world away. At any rate, obtaining quality data is a significant challenge, where the solution has mostly been manual transcription of the data, as seen in <a href="https://github.com/cmrivers/ebola">Caitlin River's now stale repository</a>. Generosity and herculean efforts aside, the challenge with this approach is that human labor is costly and people have other things to do (like finish a dissertation). Clearly, automation is a better solution, but one that is non-trivial considering the situation reports are tables embedded in a PDF file. With all the publicity around Ebola and various <a href="http://www.eboladata.org/">hackathons</a> making contributions, I'm surprised that nobody has tackled the real issue of providing reliable and timely data. Personally, I think access to information is only useful if the data are readily usable by <em>both</em> humans and machines.
 
 The motivation for this ebola.sitrep package, therefore, is to do the hard work of parsing a bunch of PDFs to provide timely machine-readable data on the ebola outbreak. Clean, regular data is the first step in conducting an analysis. A side motivation is that I wanted to use a real-world case study for my book, <em>Modeling Data With Functional Programming In R</em>. Hence, all the code is written in a functional style with minimal external dependencies. The goal is to demonstrate the power of the small set of higher order functions (map, fold/reduce, filter) that exist in any functional language.
 
@@ -132,3 +132,32 @@ The result of the function is the actual forecast for the measure in `data.frame
 
 ## Contribute to the code
 As hinted earlier, I welcome any help in adding parse rules to improve the data quality. Someone more intrepid could even add a new country to the dataset or figure out how to consolidate the measures across countries. It's easiest to reach out over Twitter: <a href="https://twitter.com/cartesianfaith">@cartesianfaith</a>.
+
+### Building the package
+It is recommended to use <a href="https://github.com/muxspace/crant">crant</a> for building. Once you've cloned and added crant to your path, simply run `crant` from the shell.
+
+```bash
+cd ebola.sitrep
+crant
+```
+
+During development, you might want build against the modified source (`-S`),
+install the latest code (`-i`) or update the documentation (`-x`).
+```bash
+crant -Six
+```
+
+Pull requests must pass CRAN checks.
+
+### Code layout
+High-level code and generic functions are in `ebola.R`. Country specific code
+is in the country files (`sl.R` and `lr.R`). I use ISO-2 country codes as
+abbreviations. Please stick to that convention.
+
+Parse rules are in specific country files and are named "parse_" + ISO-2.
+They are big functions with numerous closures embedded.
+The key parts to look at are the `get_config` functions,
+which manage the different configurations (regular expressions
+to demarcate different tables and rows). These functions also contain
+regular expressions that fix typos and other syntax issues in the raw
+data.
